@@ -9,6 +9,10 @@
 	content:"";
 }
 
+.list-group-item {
+	display: block;
+}
+
 .list-group-item-inline {
 	display: inline-block;
 }
