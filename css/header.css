@@ -7,6 +7,10 @@
   max-width: 256px;
 }
 
+.current {
+	background-color: red;
+}
+
 @media only screen and (min-width: 50em) {
 
   .logo {
@@ -32,4 +36,15 @@
     text-align: right;
   }
 
+}
+
+.banner {
+	background: #83a463 url(../images/banner.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 5em 1em 1em;
+	text-align: center;
+}
+	
+.banner h2 {
+	color: white;
 }
